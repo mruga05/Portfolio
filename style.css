@@ -1,0 +1,56 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+  }
+  
+  header {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  header h1 {
+    margin-bottom: 10px;
+  }
+  
+  nav a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  section {
+    margin: 40px 0;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+  }
+  
+  .project {
+    margin-top: 15px;
+  }
+  
+  footer {
+    text-align: center;
+    margin-top: 40px;
+    padding: 10px;
+    background: #333;
+    color: #fff;
+    border-radius: 5px;
+  }
+  
